@@ -1,0 +1,25 @@
+.displayChart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.displayChart-section {
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.refresh-btn {
+  padding: 5px 30px !important;
+  background: rgb(3, 151, 72);
+  border: none;
+  box-shadow: 0px 0px 5px 5px rgb(84, 127, 84);
+  transition: 0.4s;
+}
+
+.refresh-btn:hover {
+  background: rgb(4, 86, 33);
+}
